@@ -27,6 +27,9 @@ public class StuInfoServlet extends HttpServlet {
 
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+        response.setContentType("text/html;charset=utf-8");
+//        request.setCharacterEncoding("UTF-8");
+//        response.setCharacterEncoding("UTF-8");
         String page = request.getParameter("page");
         String pageNum = request.getParameter("pageNum");
 
