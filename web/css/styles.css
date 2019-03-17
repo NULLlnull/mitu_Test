@@ -1,0 +1,47 @@
+.index_div_title {
+    width: 100%;
+    height: 80px;
+    background: #438EB9;
+}
+
+.index_div_menu {
+    width: 150px;
+    height: 100%;
+    background: #E4E6E9;
+    float: left;
+}
+
+.index_div_main {
+    position: relative;
+    margin-left: 150px;
+    height: 100%;
+    background: #FFFFFF;
+}
+
+.titlebar_div1 {
+    width: 60%;
+    height: 100%;
+    float: left;
+}
+
+.titlebar_div2 {
+    position: relative;
+    margin-left: 60%;
+    height: 100%;
+    color: white;
+}
+
+.titlebar_span_time{}
+
+.titlebar_div3{
+    background: #62A8D1;
+    position: absolute;
+    left: 30%;
+    top: 50%;
+}
+
+
+.menubar_div1{
+    background: #62A8D1 ;
+}
+
