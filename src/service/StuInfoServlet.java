@@ -38,7 +38,7 @@ public class StuInfoServlet extends HttpServlet {
         TableDao dao = new TableDao();
         List<MituXsxx> datas = mituXsxxMapper.selectByPage(new QueryBean(Integer.valueOf(page), Integer.valueOf(pageNum)));
         dao.setData(datas);
-        dao.setDraw(1);
+        dao.setDraw(Integer.parseInt(page));
         dao.setRecordsFiltered(datas.size());
         dao.setRecordsTotal(datas.size());
 //        System.out.println(gson.toJson(dao));
